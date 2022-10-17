@@ -9,9 +9,11 @@
 
 Установка **Git**:
 
-- Windows
-Проходим по этой [***ссылке***](https://git-scm.com/download/win), выбираем под вашу ОС (32 или 64 битную), скачиваем и устанавливаем.
+### - Windows 
 
-- MacOS
+Переходим по этой [***ссылке***](https://git-scm.com/download/win), выбираем под вашу ОС (32 или 64 битную), скачиваем и устанавливаем.
 
-- Linux (**Ubuntu, ArchLinx**)
+### - MacOS
+![MaxOs install](/MacOS_install.png)
+
+### - Linux (**Ubuntu, ArchLinx**)
