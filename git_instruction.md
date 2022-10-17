@@ -36,15 +36,18 @@
 ## Параметры установки окончания строк
 **Для пользователей** ***Unix/Mac***
 
-**Выполнить:**
-	git config --global core.autocrlf input
+**Выполнить:**  
+
+	git config --global core.autocrlf input  
+
 	git config --global core.safecrlf warn
 	
 **Для пользователей** ***Windows***
 
 **Выполнить:**
 
-	git config --global core.autocrlf input
+	git config --global core.autocrlf input  
+
 	git config --global core.safecrlf warn
 	
 	
