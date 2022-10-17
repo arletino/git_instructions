@@ -29,18 +29,18 @@
 
 Вы установили себе Git и можете им пользоваться. Давайте теперь его настроим, чтобы когда вы создавали commit, указывался автор, кто его создал. Выполните следующие команды, чтобы git узнал ваше имя и электронную почту. Если git уже установлен, можете переходить к разделу окончания строк.
 
-**Выполнить:**
-	git config --global user.name "Your Name"
+**Выполнить:**  
+	git config --global user.name "Your Name"  
+И  
 	git config --global user.email "your_email@whatever.com"
 
 ## Параметры установки окончания строк
 **Для пользователей** ***Unix/Mac***
 
 **Выполнить:**  
-
-	git config --global core.autocrlf input  
-и
-	git config --global core.safecrlf warn
+	`git config --global core.autocrlf input`  
+и  
+	`git config --global core.safecrlf warn`
 	
 **Для пользователей** ***Windows**
 
