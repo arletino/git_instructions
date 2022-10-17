@@ -34,13 +34,13 @@
 	git config --global user.email "your_email@whatever.com"
 
 ## Параметры установки окончания строк
-**Для пользователей** ***Unix/Mac****
+**Для пользователей** ***Unix/Mac***
 
 **Выполнить:**
 	git config --global core.autocrlf input
 	git config --global core.safecrlf warn
 	
-**Для пользователей** ****Windows****
+**Для пользователей** ***Windows***
 
 **Выполнить:**
 
