@@ -17,3 +17,9 @@
 ![MaxOs install](/MacOS_install.png)
 
 ### - Linux (**Ubuntu, ArchLinx**)
+**Debian или Ubuntu**
+
+$ sudo apt install git
+
+**ArchLinux**
+$ sudo pacman -S git
