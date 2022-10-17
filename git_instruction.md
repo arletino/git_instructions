@@ -39,7 +39,7 @@
 **Выполнить:**  
 
 	git config --global core.autocrlf input  
-
+и
 	git config --global core.safecrlf warn
 	
 **Для пользователей** ***Windows***
@@ -47,8 +47,7 @@
 **Выполнить:**
 
 	git config --global core.autocrlf input       
-  
-
+и 
 	git config --global core.safecrlf warn
 	
 	
