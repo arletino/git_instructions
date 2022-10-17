@@ -64,8 +64,8 @@
 
 **Выполните:**
 
-	git add hello.html
-и
+	git add hello.html 
+и 
 
 	git commit -m "First Commit"
 	
@@ -101,7 +101,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 Также обратите внимание на то, что сообщение о состоянии дает вам подсказку о том, что нужно делать дальше. Если вы хотите добавить эти изменения в репозиторий, используйте команду ***git add***. В противном случае используйте команду ***git сheckout*** для отмены изменений.
 
-** Добавим изменения**
+**Добавим изменения**
 
 Дадим команду git проиндексировать изменения.
 
@@ -126,8 +126,10 @@ no changes added to commit (use "git add" and/or "git commit -a")
 	git commit -m "Changes for a and b"
 
 Затем
-	git add c.html
-И наконец
+	git add c.html  
+	
+И наконец  
+
 	git commit -m "Unrelated change to c"
 	
 Разделяя индексацию и коммит, вы имеете возможность с легкостью настроить, что идет в какой коммит.
