@@ -19,36 +19,36 @@
 ### - Linux (**Ubuntu, ArchLinx**)
 **Debian или Ubuntu**  
 
-	sudo apt install git
+`sudo apt install git`
 
 **ArchLinux**  
 
-	sudo pacman -S git
+`sudo pacman -S git`
 	
 ## Настройка Git 
 
 Вы установили себе Git и можете им пользоваться. Давайте теперь его настроим, чтобы когда вы создавали commit, указывался автор, кто его создал. Выполните следующие команды, чтобы git узнал ваше имя и электронную почту. Если git уже установлен, можете переходить к разделу окончания строк.
 
 **Выполнить:**  
-	`git config --global user.name "Your Name"`  
-И  
-	`git config --global user.email "your_email@whatever.com"`
+`git config --global user.name "Your Name"`  
+и  
+`git config --global user.email "your_email@whatever.com"`
 
 ## Параметры установки окончания строк
 **Для пользователей** ***Unix/Mac***
 
 **Выполнить:**  
-	`git config --global core.autocrlf input`  
+`git config --global core.autocrlf input`  
 и  
-	`git config --global core.safecrlf warn`
+`git config --global core.safecrlf warn`
 	
 **Для пользователей** ***Windows**
 
 **Выполнить:**
 
-	`git config --global core.autocrlf input`       
-и 
-	`git config --global core.safecrlf warn`
+`git config --global core.autocrlf input`       
+и
+`git config --global core.safecrlf warn`
 
 ## Создание репозитория
 
@@ -56,7 +56,7 @@
 
 **Выполните:**
 
-	`git init`	
+`git init`	
 	
 ## Добавить файлы или новые файлы в репозиторий
 
@@ -64,10 +64,9 @@
 
 **Выполните:**
 
-	`git add hello.html` 
-и 
-
-	`git commit -m "First Commit"`
+`git add hello.html` 
+и
+`git commit -m "First Commit"`
 	
 где "First commit" - Коммит - Название(Комментарий к) точки сохранения).
 
@@ -77,7 +76,7 @@
 
 **Выполните:**
 
-	`git status`	
+`git status`	
 	
 Команда проверки состояния сообщит, что коммитить нечего. Это означает, что в репозитории хранится текущее состояние рабочего каталога, и нет никаких изменений, ожидающих записи.
 
@@ -87,7 +86,7 @@
 
 Если вы изменили файлы или добавили новые файлы, то набрав команду ***git status*** вы можете увидить следующий результат:
 
-`git status
+"git status
 On branch master
 Changes not staged for commit:
    (use "git add <file>..." to update what will be committed)
@@ -95,7 +94,7 @@ Changes not staged for commit:
 
    modified:   hello.html
 
-no changes added to commit (use "git add" and/or "git commit -a")`
+no changes added to commit (use "git add" and/or "git commit -a")"
 
 Первое, что нужно заметить, это то, что git знает, что файл hello.html был изменен, но при этом эти изменения еще не зафиксированы в репозитории.
 
@@ -107,7 +106,7 @@ no changes added to commit (use "git add" and/or "git commit -a")`
 
 ***Выполнить:***
 
-	`git add hello.html`
+`git add hello.html`
 
 Изменения файла ***hello.html*** были проиндексированы. Это означает, что **git** теперь знает об изменении, но изменение пока не перманентно (читай, навсегда) записано в репозиторий. Следующий коммит будет включать в себя проиндексированные изменения.
 
@@ -119,18 +118,20 @@ no changes added to commit (use "git add" and/or "git commit -a")`
 
 В теории, вы можете сделать следующее:
 
-	'git add a.html'
+	`git add a.html`
 Затем
-	'git add b.html'
-Затем
-	'git commit -m "Changes for a and b"'
+`git add b.html`
 
 Затем
-	'git add c.html' 
+
+`git commit -m "Changes for a and b"`
+
+Затем
+`git add c.html` 
 	
 И наконец  
 
-	'git commit -m "Unrelated change to c"'
+`git commit -m "Unrelated change to c"`
 	
 Разделяя индексацию и коммит, вы имеете возможность с легкостью настроить, что идет в какой коммит.
 	
