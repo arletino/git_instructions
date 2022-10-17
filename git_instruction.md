@@ -42,7 +42,7 @@
 и  
 `git config --global core.safecrlf warn`
 	
-**Для пользователей** ***Windows**
+**Для пользователей** ***Windows***
 
 **Выполнить:**
 
@@ -64,9 +64,9 @@
 
 **Выполните:**
 
-`git add hello.html` 
-и
-`git commit -m "First Commit"`
+ `git add hello.html` 
+ и 
+ `git commit -m "First Commit"`
 	
 где "First commit" - Коммит - Название(Комментарий к) точки сохранения).
 
