@@ -47,7 +47,7 @@
 **Выполнить:**
 
 `git config --global core.autocrlf input`       
-и 
+и  
 `git config --global core.safecrlf warn`
 
 ## Создание репозитория
