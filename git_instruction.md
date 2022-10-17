@@ -19,8 +19,8 @@
 ### - Linux (**Ubuntu, ArchLinx**)
 **Debian или Ubuntu**  
 
-sudo apt install git
+	sudo apt install git
 
 **ArchLinux**  
 
-sudo pacman -S git
+	sudo pacman -S git
