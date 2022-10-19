@@ -1,18 +1,4 @@
-Результат:
 
-$ git checkout master
-Previous HEAD position was 911e8c9... First Commit
-Switched to branch 'master'
-$ cat hello.html
-<html>
-  <head>
-  </head>
-  <body>
-    <h1>Hello, World!</h1>
-  </body>
-</html>
-
-«master» — имя ветки по умолчанию. Переключая имена веток, вы попадаете на последнюю версию выбранной ветки.
 
 13. Создание тегов версий
 ads via Carbon
